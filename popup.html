@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TOTP WINDOW</title>
+  <style>
+    /* Set popup dimensions and styles */
+    body {
+      width: 300px;
+      height: 100px;
+      font-family: Arial, sans-serif;
+      font-size: 18px; /* Added 'px' to specify units */
+    }
+
+    h1 {
+      font-size: 24px; /* Increased size for the heading */
+    }
+
+    #arrayContent {
+      font-size: 18px; /* Ensuring the content has a consistent font size */
+    }
+
+    #timer {
+      font-size: 18px; /* Consistent font size for the timer */
+    }
+  </style>
+  <script src="sha.js"></script>
+</head>
+<body>
+  <h1>TOTP GENERATOR</h1>
+
+  <div id="arrayContent"></div>
+
+  <div id="timer"></div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="keys.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
